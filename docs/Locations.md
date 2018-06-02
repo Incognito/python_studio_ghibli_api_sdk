@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **int** | Unique identifier representing a specific location | [optional] 
+**id** | **str** | Unique identifier representing a specific location | [optional] 
 **name** | **str** | Name of location | [optional] 
 **climate** | **str** | Climate of location | [optional] 
 **terrain** | **int** | Terrain type of location | [optional] 

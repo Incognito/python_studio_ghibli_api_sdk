@@ -138,7 +138,7 @@ class PeopleApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: person `id` (required)
+        :param str id: person `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: list[People]
                  If the method is called asynchronously,
@@ -161,7 +161,7 @@ class PeopleApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: person `id` (required)
+        :param str id: person `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: list[People]
                  If the method is called asynchronously,

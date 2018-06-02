@@ -138,7 +138,7 @@ class VehiclesApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: film `id` (required)
+        :param str id: film `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: list[Vehicles]
                  If the method is called asynchronously,
@@ -161,7 +161,7 @@ class VehiclesApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: film `id` (required)
+        :param str id: film `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: list[Vehicles]
                  If the method is called asynchronously,
