@@ -34,14 +34,16 @@ class TestPeopleApi(unittest.TestCase):
 
         Return all people  # noqa: E501
         """
-        pass
+        result = self.api.people_get()
+        self.assertTrue(len(result) > 5)
 
     def test_people_id_get(self):
         """Test case for people_id_get
 
         People ID  # noqa: E501
         """
-        pass
+        result = self.api.people_id_get('ba924631-068e-4436-b6de-f3283fa848f0')
+        self.assertEqual(result.id, 'ba924631-068e-4436-b6de-f3283fa848f0')
 
 
 if __name__ == '__main__':

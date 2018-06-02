@@ -75,7 +75,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = studio_ghibli_api_sdk.PeopleApi()
-id = 789 # int | person `id`
+id = '789' # str | person `id`
 fields = 'fields_example' # str | comma-separated list of fields to include in the response (optional)
 
 try:
@@ -90,7 +90,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| person &#x60;id&#x60; | 
+ **id** | **str**| person &#x60;id&#x60; | 
  **fields** | **str**| comma-separated list of fields to include in the response | [optional] 
 
 ### Return type

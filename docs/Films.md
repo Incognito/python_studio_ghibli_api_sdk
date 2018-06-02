@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | **int** | Unique identifier representing a specific film | [optional] 
+**id** | **str** | Unique identifier representing a specific film | [optional] 
 **title** | **str** | Title of the film | [optional] 
 **description** | **str** | Description of the film | [optional] 
 **director** | **str** | Director of the film | [optional] 

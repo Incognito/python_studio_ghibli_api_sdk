@@ -75,7 +75,8 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = studio_ghibli_api_sdk.FilmsApi()
-id = 789 # int | film `id`
+id = '2baf70d1-42bb-4437-b551-e5fed5a87abe' # str | film `id`
+
 fields = 'fields_example' # str | comma-separated list of fields to include in the response (optional)
 
 try:
@@ -90,7 +91,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **int**| film &#x60;id&#x60; | 
+ **id** | **str**| film &#x60;id&#x60; | 
  **fields** | **str**| comma-separated list of fields to include in the response | [optional] 
 
 ### Return type

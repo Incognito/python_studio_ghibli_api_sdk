@@ -138,7 +138,7 @@ class SpeciesApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: film `id` (required)
+        :param str id: film `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: list[Species]
                  If the method is called asynchronously,
@@ -161,7 +161,7 @@ class SpeciesApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: film `id` (required)
+        :param str id: film `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: list[Species]
                  If the method is called asynchronously,
@@ -219,7 +219,7 @@ class SpeciesApi(object):
             body=body_params,
             post_params=form_params,
             files=local_var_files,
-            response_type='list[Species]',  # noqa: E501
+            response_type='Species',  # noqa: E501
             auth_settings=auth_settings,
             async=params.get('async'),
             _return_http_data_only=params.get('_return_http_data_only'),

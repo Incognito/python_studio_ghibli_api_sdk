@@ -138,7 +138,7 @@ class LocationsApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: location `id` (required)
+        :param str id: location `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: object
                  If the method is called asynchronously,
@@ -161,7 +161,7 @@ class LocationsApi(object):
         >>> result = thread.get()
 
         :param async bool
-        :param int id: location `id` (required)
+        :param str id: location `id` (required)
         :param str fields: comma-separated list of fields to include in the response
         :return: object
                  If the method is called asynchronously,

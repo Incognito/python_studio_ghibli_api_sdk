@@ -31,7 +31,7 @@ class Locations(object):
                             and the value is json key in definition.
     """
     swagger_types = {
-        'id': 'int',
+        'id': 'str',
         'name': 'str',
         'climate': 'str',
         'terrain': 'int',
@@ -89,7 +89,7 @@ class Locations(object):
         Unique identifier representing a specific location  # noqa: E501
 
         :return: The id of this Locations.  # noqa: E501
-        :rtype: int
+        :rtype: str
         """
         return self._id
 
@@ -100,7 +100,7 @@ class Locations(object):
         Unique identifier representing a specific location  # noqa: E501
 
         :param id: The id of this Locations.  # noqa: E501
-        :type: int
+        :type: str
         """
 
         self._id = id
