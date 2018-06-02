@@ -29,7 +29,7 @@ setup(
     version=VERSION,
     description="Studio Ghibli API",
     author_email="",
-    url="",
+    url="https://pypi.org/project/studio_ghibli_api_sdk/",
     keywords=["Swagger", "Studio Ghibli API"],
     install_requires=REQUIRES,
     packages=find_packages(),
