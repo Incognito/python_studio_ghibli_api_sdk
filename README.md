@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client 
+import studio_ghibli_api_sdk 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import studio_ghibli_api_sdk
 ```
 
 ## Getting Started
@@ -47,11 +47,11 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import studio_ghibli_api_sdk
+from studio_ghibli_api_sdk.rest import ApiException
 from pprint import pprint
 # create an instance of the API class
-api_instance = swagger_client.FilmsApi()
+api_instance = studio_ghibli_api_sdk.FilmsApi()
 fields = 'fields_example' # str | comma-separated list of fields to include in the response (optional)
 limit = 789 # int | amount of results (default 50) (maximum 250) (optional)
 

@@ -15,9 +15,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.species import Species  # noqa: E501
-from swagger_client.rest import ApiException
+import studio_ghibli_api_sdk
+from studio_ghibli_api_sdk.models.species import Species  # noqa: E501
+from studio_ghibli_api_sdk.rest import ApiException
 
 
 class TestSpecies(unittest.TestCase):
@@ -32,7 +32,7 @@ class TestSpecies(unittest.TestCase):
     def testSpecies(self):
         """Test Species"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.species.Species()  # noqa: E501
+        # model = studio_ghibli_api_sdk.models.species.Species()  # noqa: E501
         pass
 
 

@@ -15,9 +15,9 @@
 from __future__ import absolute_import
 
 # import models into model package
-from swagger_client.models.error import Error
-from swagger_client.models.films import Films
-from swagger_client.models.locations import Locations
-from swagger_client.models.people import People
-from swagger_client.models.species import Species
-from swagger_client.models.vehicles import Vehicles
+from studio_ghibli_api_sdk.models.error import Error
+from studio_ghibli_api_sdk.models.films import Films
+from studio_ghibli_api_sdk.models.locations import Locations
+from studio_ghibli_api_sdk.models.people import People
+from studio_ghibli_api_sdk.models.species import Species
+from studio_ghibli_api_sdk.models.vehicles import Vehicles

@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.species_api import SpeciesApi  # noqa: E501
-from swagger_client.rest import ApiException
+import studio_ghibli_api_sdk
+from studio_ghibli_api_sdk.api.species_api import SpeciesApi  # noqa: E501
+from studio_ghibli_api_sdk.rest import ApiException
 
 
 class TestSpeciesApi(unittest.TestCase):
     """SpeciesApi unit test stubs"""
 
     def setUp(self):
-        self.api = swagger_client.api.species_api.SpeciesApi()  # noqa: E501
+        self.api = studio_ghibli_api_sdk.api.species_api.SpeciesApi()  # noqa: E501
 
     def tearDown(self):
         pass

@@ -16,19 +16,19 @@
 from __future__ import absolute_import
 
 # import apis into sdk package
-from swagger_client.api.films_api import FilmsApi
-from swagger_client.api.locations_api import LocationsApi
-from swagger_client.api.people_api import PeopleApi
-from swagger_client.api.species_api import SpeciesApi
-from swagger_client.api.vehicles_api import VehiclesApi
+from studio_ghibli_api_sdk.api.films_api import FilmsApi
+from studio_ghibli_api_sdk.api.locations_api import LocationsApi
+from studio_ghibli_api_sdk.api.people_api import PeopleApi
+from studio_ghibli_api_sdk.api.species_api import SpeciesApi
+from studio_ghibli_api_sdk.api.vehicles_api import VehiclesApi
 
 # import ApiClient
-from swagger_client.api_client import ApiClient
-from swagger_client.configuration import Configuration
+from studio_ghibli_api_sdk.api_client import ApiClient
+from studio_ghibli_api_sdk.configuration import Configuration
 # import models into sdk package
-from swagger_client.models.error import Error
-from swagger_client.models.films import Films
-from swagger_client.models.locations import Locations
-from swagger_client.models.people import People
-from swagger_client.models.species import Species
-from swagger_client.models.vehicles import Vehicles
+from studio_ghibli_api_sdk.models.error import Error
+from studio_ghibli_api_sdk.models.films import Films
+from studio_ghibli_api_sdk.models.locations import Locations
+from studio_ghibli_api_sdk.models.people import People
+from studio_ghibli_api_sdk.models.species import Species
+from studio_ghibli_api_sdk.models.vehicles import Vehicles

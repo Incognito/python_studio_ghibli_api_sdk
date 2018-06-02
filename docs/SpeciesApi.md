@@ -1,4 +1,4 @@
-# swagger_client.SpeciesApi
+# studio_ghibli_api_sdk.SpeciesApi
 
 All URIs are relative to *https://ghibliapi.herokuapp.com*
 
@@ -19,12 +19,12 @@ The Species endpoint returns information about all of the Studio Ghibli species.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import studio_ghibli_api_sdk
+from studio_ghibli_api_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpeciesApi()
+api_instance = studio_ghibli_api_sdk.SpeciesApi()
 fields = 'fields_example' # str | comma-separated list of fields to include in the response (optional)
 limit = 789 # int | amount of results (default 50) (maximum 250) (optional)
 
@@ -69,12 +69,12 @@ Returns an individual species
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import studio_ghibli_api_sdk
+from studio_ghibli_api_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SpeciesApi()
+api_instance = studio_ghibli_api_sdk.SpeciesApi()
 id = 789 # int | film `id`
 fields = 'fields_example' # str | comma-separated list of fields to include in the response (optional)
 
