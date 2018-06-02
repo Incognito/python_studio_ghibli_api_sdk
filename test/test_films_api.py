@@ -12,8 +12,6 @@
 
 from __future__ import absolute_import
 
-import pprint
-
 import unittest
 
 import studio_ghibli_api_sdk
@@ -36,7 +34,6 @@ class TestFilmsApi(unittest.TestCase):
         Return all films  # noqa: E501
         """
         result = self.api.films_get()
-        pprint.pprint(result)
         self.assertTrue(len(result) > 5)
 
     def test_films_id_get(self):
@@ -45,7 +42,6 @@ class TestFilmsApi(unittest.TestCase):
         Film ID  # noqa: E501
         """
         result = self.api.films_id_get('2baf70d1-42bb-4437-b551-e5fed5a87abe')
-        pprint.pprint(result)
         self.assertEqual(result.id, '2baf70d1-42bb-4437-b551-e5fed5a87abe')
 
 
